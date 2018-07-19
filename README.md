@@ -40,7 +40,7 @@ Flex弹性布局
 
 CSS Sticky footer
 
-答：CSS秘密花园:Sticky footers
+答：http://www.w3cplus.com/css3/css-secrets/sticky-footers.htmlCSS秘密花园:Sticky footers
 
 better-scroll实现联动
 
