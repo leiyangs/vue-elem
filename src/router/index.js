@@ -28,6 +28,6 @@ const routes = [{
 }];
 
 export default new Router({
-  linkActiveClass: 'active',
+  linkActiveClass: 'active', //路由选中class
   routes
 });
