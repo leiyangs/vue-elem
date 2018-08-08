@@ -1,6 +1,14 @@
+/**
+ * exaple
+ * var str = 'abcd';
+ * 'yyyy-MM-dd hh:mm:ss'.replace('yyyy',str+'').substr(0)  => "abcd-MM-dd hh:mm:ss"
+ * @param {new Date(time);} date
+ * @param {yyyy-MM-dd hh:mm} fmt 
+ */
+
 export function formatDate(date, fmt) {
     if (/(y+)/.test(fmt)) {
-        //RegExp.$1 正则表达式匹配的第一个内容
+        //RegExp.$1 正则表达式匹配的第一个内容   +''可将类型转化为字符串
         fmt = fmt.replace(RegExp.$1, (date.getFullYear() + '').substr(4 - RegExp.$1.length));
     }
     let o = {

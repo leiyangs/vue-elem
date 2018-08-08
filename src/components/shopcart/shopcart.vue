@@ -440,7 +440,7 @@ export default {
     width: 100%;
     height: 100%;
     z-index: 40;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);  //模糊效果
     transition: all 0.5s;
     opacity: 1;
     background: rgba(7,17,27,0.6);

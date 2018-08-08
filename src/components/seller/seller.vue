@@ -143,7 +143,7 @@ import split from "@/components/split/split";
                 }) 
             }
         },
-        mounted() { //mounted比watch早运行，所以_initScroll中要加else判断，重新计算
+        mounted() { //mounted 挂载完毕阶段 比watch早运行，所以_initScroll中要加else判断，重新计算
             this.$nextTick(() => { //必须保证DOM被渲染完成才加载
                 this._initScroll();
                 this._initPics();
