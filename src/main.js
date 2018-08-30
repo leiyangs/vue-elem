@@ -77,6 +77,7 @@ import "./common/sass/index.scss";
 
 Vue.use(Vuex);
 Vue.prototype.axios = axios; //axios并不是vue插件，这里不能使用Vue.use，绑定的了原型链上
+Vue.config.productionTip = false  //去掉vue警告 You are running Vue in development mode （用于生产不提示）
 
 new Vue({
     el: '#app',
